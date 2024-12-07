@@ -4,10 +4,12 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev": "sst dev"
+  },
   "devDependencies": {
     "@tsconfig/node22": "^22",
-    "typescript": "^5"
+    "typescript": "5.7.2"
   },
   "dependencies": {
     "sst": "^3"
